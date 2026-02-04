@@ -1,0 +1,181 @@
+export const footballMatches = [
+  {
+    id: 'fb1',
+    homeTeam: 'Arsenal',
+    awayTeam: 'Chelsea',
+    homeOdds: 1.75,
+    awayOdds: 4.20,
+    drawOdds: 3.60,
+    prediction: 'home' as const,
+    confidence: 78,
+    league: 'Premier League',
+    time: '15:00',
+    analysis: 'Arsenal showing dominant home form with 8 wins in last 10. Chelsea struggling away with key injuries to midfield. Expected goals model heavily favors Arsenal (xG 2.1 vs 0.8).'
+  },
+  {
+    id: 'fb2',
+    homeTeam: 'Barcelona',
+    awayTeam: 'Real Madrid',
+    homeOdds: 2.10,
+    awayOdds: 3.20,
+    drawOdds: 3.40,
+    prediction: 'home' as const,
+    confidence: 65,
+    league: 'La Liga',
+    time: '20:00',
+    analysis: 'El Clasico historically tight but Barcelona excellent at Camp Nou this season. Real Madrid missing key defender. Recent H2H slightly favors home side.'
+  },
+  {
+    id: 'fb3',
+    homeTeam: 'Bayern Munich',
+    awayTeam: 'Dortmund',
+    homeOdds: 1.55,
+    awayOdds: 5.50,
+    drawOdds: 4.20,
+    prediction: 'home' as const,
+    confidence: 85,
+    league: 'Bundesliga',
+    time: '17:30',
+    analysis: 'Bayern unbeaten at home all season. Dortmund poor defensive record away. Statistical models show 73% Bayern win probability based on current form.'
+  },
+  {
+    id: 'fb4',
+    homeTeam: 'PSG',
+    awayTeam: 'Lyon',
+    homeOdds: 1.40,
+    awayOdds: 7.00,
+    drawOdds: 4.80,
+    prediction: 'home' as const,
+    confidence: 88,
+    league: 'Ligue 1',
+    time: '21:00',
+    analysis: 'PSG dominant domestically with near-perfect home record. Lyon in transition phase with inconsistent results. Clear quality gap in squads.'
+  },
+  {
+    id: 'fb5',
+    homeTeam: 'Inter Milan',
+    awayTeam: 'AC Milan',
+    homeOdds: 1.90,
+    awayOdds: 3.80,
+    drawOdds: 3.50,
+    prediction: 'draw' as const,
+    confidence: 58,
+    league: 'Serie A',
+    time: '18:00',
+    analysis: 'Derby della Madonnina typically cagey affair. Both teams defensively solid. Last 5 meetings produced 3 draws. Low-scoring game expected.'
+  },
+  {
+    id: 'fb6',
+    homeTeam: 'Man United',
+    awayTeam: 'Liverpool',
+    homeOdds: 3.20,
+    awayOdds: 2.15,
+    drawOdds: 3.40,
+    prediction: 'away' as const,
+    confidence: 72,
+    league: 'Premier League',
+    time: '16:30',
+    analysis: 'Liverpool in excellent form with pressing system working perfectly. United struggling for consistency. Liverpool won 3 of last 4 at Old Trafford.'
+  },
+  {
+    id: 'fb7',
+    homeTeam: 'Ajax',
+    awayTeam: 'PSV',
+    homeOdds: 2.00,
+    awayOdds: 3.40,
+    drawOdds: 3.60,
+    prediction: 'home' as const,
+    confidence: 67,
+    league: 'Eredivisie',
+    time: '14:30',
+    analysis: 'Ajax strong at Johan Cruyff Arena. PSV good but away form inconsistent. Historical data shows Ajax edge in big home matches.'
+  },
+  {
+    id: 'fb8',
+    homeTeam: 'Atletico Madrid',
+    awayTeam: 'Sevilla',
+    homeOdds: 1.80,
+    awayOdds: 4.20,
+    drawOdds: 3.50,
+    prediction: 'home' as const,
+    confidence: 74,
+    league: 'La Liga',
+    time: '19:00',
+    analysis: 'Atletico defensive fortress at home. Sevilla lacking cutting edge in attack. Simeone tactics perfectly suited for this fixture.'
+  }
+];
+
+export const basketballMatches = [
+  {
+    id: 'bb1',
+    homeTeam: 'LA Lakers',
+    awayTeam: 'Boston Celtics',
+    homeOdds: 2.20,
+    awayOdds: 1.70,
+    prediction: 'away' as const,
+    confidence: 71,
+    league: 'NBA',
+    time: '02:30',
+    analysis: 'Celtics superior offensive efficiency (118.5 ORTG vs 112.3). Lakers struggling with injuries. Celtics 8-2 in last 10 away games.'
+  },
+  {
+    id: 'bb2',
+    homeTeam: 'Golden State Warriors',
+    awayTeam: 'Chicago Bulls',
+    homeOdds: 1.35,
+    awayOdds: 3.20,
+    prediction: 'home' as const,
+    confidence: 84,
+    league: 'NBA',
+    time: '04:00',
+    analysis: 'Warriors excellent at Chase Center with 15-3 home record. Bulls struggling on road. Massive gap in net rating (+8.5 vs -2.1).'
+  },
+  {
+    id: 'bb3',
+    homeTeam: 'Brooklyn Nets',
+    awayTeam: 'Miami Heat',
+    homeOdds: 2.40,
+    awayOdds: 1.60,
+    prediction: 'away' as const,
+    confidence: 68,
+    league: 'NBA',
+    time: '00:30',
+    analysis: 'Heat defensive rating significantly better (108.2 vs 115.6). Nets missing key rotational players. Heat 6-1 ATS in last 7 road games.'
+  },
+  {
+    id: 'bb4',
+    homeTeam: 'Milwaukee Bucks',
+    awayTeam: 'Philadelphia 76ers',
+    homeOdds: 1.55,
+    awayOdds: 2.50,
+    prediction: 'home' as const,
+    confidence: 76,
+    league: 'NBA',
+    time: '01:00',
+    analysis: 'Bucks dominant at Fiserv Forum. Giannis averaging 35ppg in head-to-head. 76ers road struggles continue with 5-8 away record.'
+  },
+  {
+    id: 'bb5',
+    homeTeam: 'Denver Nuggets',
+    awayTeam: 'Phoenix Suns',
+    homeOdds: 1.75,
+    awayOdds: 2.10,
+    prediction: 'home' as const,
+    confidence: 69,
+    league: 'NBA',
+    time: '03:00',
+    analysis: 'Nuggets elite at altitude with best home record in West. Suns slightly better on paper but struggle in Denver. Jokic matchup nightmare for Suns.'
+  },
+  {
+    id: 'bb6',
+    homeTeam: 'Real Madrid',
+    awayTeam: 'Barcelona',
+    homeOdds: 1.85,
+    awayOdds: 1.95,
+    prediction: 'home' as const,
+    confidence: 55,
+    league: 'EuroLeague',
+    time: '21:00',
+    analysis: 'El Clasico of basketball - historically tight. Real slight edge at home. Both teams in excellent form. Could go either way.'
+  }
+];
